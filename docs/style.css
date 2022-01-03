@@ -448,9 +448,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: relative;
 }
 
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
+.top-0 {
+  top: 0px;
+}
+
+.top-20 {
+  top: 5rem;
 }
 
 .left-0 {
@@ -469,20 +472,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   left: 8rem;
 }
 
-.top-0 {
-  top: 0px;
-}
-
-.top-20 {
-  top: 5rem;
+.z-20 {
+  z-index: 20;
 }
 
 .z-10 {
   z-index: 10;
-}
-
-.z-20 {
-  z-index: 20;
 }
 
 .mx-8 {
@@ -520,10 +515,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 3rem;
 }
 
-.mt-20 {
-  margin-top: 5rem;
-}
-
 .flex {
   display: flex;
 }
@@ -532,12 +523,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-.h-1 {
-  height: 0.25rem;
-}
-
 .h-20 {
   height: 5rem;
+}
+
+.h-1 {
+  height: 0.25rem;
 }
 
 .w-screen {
