@@ -1,0 +1,17 @@
+{
+  "name": "scooter-landing-screen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./src/style.css -o ./public/style.css --watch",
+    "start": "live-server public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "tailwindcss": "^3.0.8"
+  }
+}

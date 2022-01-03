@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poly&display=swap');
+
+* {
+    transition-duration: 800ms;
+}
+
+.playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+.poly {
+    font-family: 'Poly', serif;
+}
